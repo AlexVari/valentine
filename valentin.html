@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>З Днем Святого Валентина!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffebee;
+            color: #c62828;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 24px;
+            line-height: 1.6;
+            margin: 15px 0;
+            font-style: italic;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .heart {
+            color: #e91e63;
+            font-size: 60px;
+            animation: heartbeat 1.5s infinite;
+            margin-top: 20px;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        .emoji {
+            position: absolute;
+            font-size: 40px;
+            animation: float 6s infinite ease-in-out;
+        }
+        .emoji.left {
+            left: 10px; /* Сдвигаем на 10px от левого края */
+        }
+        .emoji.right {
+            right: 10px; /* Сдвигаем на 10px от правого края */
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        .poem {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .scroll-content {
+            margin-top: 50px;
+            padding-bottom: 100px; /* Додаємо місце для прокрутки */
+        }
+        .scroll-content p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Смайлики слева -->
+    <div class="emoji left" style="top: 10%;">🌼</div>
+    <div class="emoji left" style="top: 30%;">💖</div>
+    <div class="emoji left" style="top: 50%;">🌸</div>
+    <div class="emoji left" style="top: 70%;">🥰</div>
+    <div class="emoji left" style="top: 90%;">💌</div>
+
+    <!-- Смайлики справа -->
+    <div class="emoji right" style="top: 20%;">🌹</div>
+    <div class="emoji right" style="top: 40%;">💕</div>
+    <div class="emoji right" style="top: 60%;">😍</div>
+    <div class="emoji right" style="top: 80%;">💘</div>
+    <div class="emoji right" style="top: 95%;">💐</div>
+
+    <h1>З Днем Святого Валентина! 💖</h1>
+    <div class="poem">
+        <p>Захоплююсь тобою, коханий мій,</p>
+        <p>Твої очі, як зірки на небі.</p>
+        <p>Твоя усмішка - як сонячний промінь,</p>
+        <p>Радість і тепло в серці моїм.</p>
+
+        <p>Твоя душа - як казковий ліс,</p>
+        <p>Де кожен кущик повний таємниць.</p>
+        <p>Твої слова - мелодія ніжна,</p>
+        <p>Що лине в серці, як найкраща пісня.</p>
+
+        <p>Ти моє щастя, моя любов,</p>
+        <p>Ти даруєш мені неймовірний спокій.</p>
+        <p>З тобою світ стає яскравим казковим сном,</p>
+        <p>І я завжди буду кохати тебе, мій дорогий.</p>
+
+        <p>Ці слова в моєму серці назавжди.</p>
+    </div>
+
+    <!-- Додатковий контент для прокрутки -->
+    <div class="scroll-content">
+        <p>Кожен день з тобою - це нове пригода,</p>
+        <p>Де кожен момент наповнений любов'ю.</p>
+        <p>Ти - моя муза, моя натхнення,</p>
+        <p>І я вдячний за кожну мить разом.</p>
+
+        <p>Твоя турбота - як теплий плед,</p>
+        <p>Що захищає мене від будь-яких негод.</p>
+        <p>Твоя любов - як сонячний світанок,</p>
+        <p>Що розганяє всі мої сумніви.</p>
+
+        <p>Я обіцяю бути поруч завжди,</p>
+        <p>Підтримувати тебе в будь-якій ситуації.</p>
+        <p>Ти - моє все, моя любов, моє життя,</p>
+        <p>І я завжди буду твоїм.</p>
+
+        <p>З Днем Святого Валентина, моя любове!</p>
+    </div>
+
+    <div class="heart">❤️</div>
+</body>
+</html>
